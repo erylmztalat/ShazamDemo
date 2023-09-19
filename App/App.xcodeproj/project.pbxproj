@@ -16,6 +16,7 @@
 		061A3C792ABA296500B47D00 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A3C782ABA296500B47D00 /* AppTests.swift */; };
 		061A3C832ABA296500B47D00 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A3C822ABA296500B47D00 /* AppUITests.swift */; };
 		061A3C852ABA296500B47D00 /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A3C842ABA296500B47D00 /* AppUITestsLaunchTests.swift */; };
+		061A3C932ABA423300B47D00 /* NetworkService in Frameworks */ = {isa = PBXBuildFile; productRef = 061A3C922ABA423300B47D00 /* NetworkService */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061A3C932ABA423300B47D00 /* NetworkService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = App;
+			packageProductDependencies = (
+				061A3C922ABA423300B47D00 /* NetworkService */,
+			);
 			productName = App;
 			productReference = 061A3C5E2ABA295F00B47D00 /* App.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 061A3C552ABA295E00B47D00;
+			packageReferences = (
+				061A3C912ABA423300B47D00 /* XCRemoteSwiftPackageReference "NetworkServiceModule" */,
+			);
 			productRefGroup = 061A3C5F2ABA295F00B47D00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		061A3C912ABA423300B47D00 /* XCRemoteSwiftPackageReference "NetworkServiceModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erylmztalat/NetworkServiceModule.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		061A3C922ABA423300B47D00 /* NetworkService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 061A3C912ABA423300B47D00 /* XCRemoteSwiftPackageReference "NetworkServiceModule" */;
+			productName = NetworkService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 061A3C562ABA295E00B47D00 /* Project object */;
 }
