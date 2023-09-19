@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "networkservicemodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/erylmztalat/NetworkServiceModule.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a79620cf22156ffa5ad020b0f8f753be769cb704"
+      }
+    }
+  ],
+  "version" : 2
+}
