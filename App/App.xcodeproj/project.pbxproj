@@ -17,6 +17,7 @@
 		061A3C832ABA296500B47D00 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A3C822ABA296500B47D00 /* AppUITests.swift */; };
 		061A3C852ABA296500B47D00 /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A3C842ABA296500B47D00 /* AppUITestsLaunchTests.swift */; };
 		061A3C932ABA423300B47D00 /* NetworkService in Frameworks */ = {isa = PBXBuildFile; productRef = 061A3C922ABA423300B47D00 /* NetworkService */; };
+		06D762B12ABCD5BD00B66224 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D762B02ABCD5BD00B66224 /* Shared.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		061A3C7E2ABA296500B47D00 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		061A3C822ABA296500B47D00 /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		061A3C842ABA296500B47D00 /* AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06D762B02ABCD5BD00B66224 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D762B12ABCD5BD00B66224 /* Shared.framework in Frameworks */,
 				061A3C932ABA423300B47D00 /* NetworkService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +88,7 @@
 				061A3C772ABA296500B47D00 /* AppTests */,
 				061A3C812ABA296500B47D00 /* AppUITests */,
 				061A3C5F2ABA295F00B47D00 /* Products */,
+				06D762AF2ABCD5BD00B66224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +131,14 @@
 				061A3C842ABA296500B47D00 /* AppUITestsLaunchTests.swift */,
 			);
 			path = AppUITests;
+			sourceTree = "<group>";
+		};
+		06D762AF2ABCD5BD00B66224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06D762B02ABCD5BD00B66224 /* Shared.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
